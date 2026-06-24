@@ -16,12 +16,12 @@ if logarifm(1,1,1) == True:
 else :
     print('false')
 
-if logarifm(1, 5, 1) == 0:
+if logarifm(1, 5, 2) == 0:
     print('true')
 else :
     print('false')
 
-if logarifm(5, 5, 1) == 1 :
+if logarifm(5, 5, 2) == 1 :
     print('true')
 else :
     print('false')
@@ -42,8 +42,8 @@ def test_3():
 
 def test_4():
 
-    assert logarifm(1, 5, 1) == 0       
+    assert logarifm(1, 5, 2) == 0       
        
 def test_5():
 
-    assert logarifm(5, 5, 1) == 1  
+    assert logarifm(5, 5, 2) == 1  
